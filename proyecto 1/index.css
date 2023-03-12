@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+div {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fernando {
+  background-color: green;
+  border-radius: 10%;
+}
+
+#david {
+ background-color: gold; 
+border-radius: 10%;
+}
+
+#christian {
+  background-color: cyan;
+  border-radius: 10%;
+}
+
+#arielle {
+background-color: darkmagenta;
+border-radius: 10%;
+}
+
+#irene {
+background-color: hotpink;
+border-radius: 10%;
+}
