@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 div {
@@ -10,29 +11,42 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: floralwhite;
 }
 
 #fernando {
-  background-color: green;
-  border-radius: 10%;
+  background-color: red;
+  border-radius: 50%;
 }
 
 #david {
- background-color: gold; 
-border-radius: 10%;
+background-color: rgb(72, 255, 0); 
+border-radius: 50%;
 }
 
 #christian {
-  background-color: cyan;
-  border-radius: 10%;
+background-color: blue;
+border-radius: 50%;
 }
 
 #arielle {
-background-color: darkmagenta;
-border-radius: 10%;
+background-color: darkorchid;
+ border-radius: 50%;
 }
 
 #irene {
-background-color: hotpink;
-border-radius: 10%;
+  background-color: deeppink;
+  border-radius: 50%;
 }
+
+#gato{
+  background-color: goldenrod;
+  border-radius: 50%;
+
+}
+#patatasfritas{
+  background-color: darkorange;
+  border-radius: 50%;
+  
+}
+  
